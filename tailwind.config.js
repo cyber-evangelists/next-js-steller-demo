@@ -52,12 +52,18 @@ module.exports = {
         "text-gradient": "linear-gradient(to right, #a855f7, #e9d5ff)",
         "text-gradient-2":
           "linear-gradient(to right, rgb(194 148 237), rgb(226 232 240 / 0.6))",
+        loginBox: "url(../public/assets/bg_img.png)",
+        trustUs: "url(../public/assets/trustUs_img.png)",
+        glowBottom: "url(../public/assets/glow-bottom.svg)",
+        glowTop: "url(../public/assets/glow-top.svg)",
       },
       colors: {
         textPrimary: "#ABB2BC",
         themeColor: "#0F172A",
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bordorColor: "#363E48",
+        loginBoxColor: "#A855F7",
       },
       backgroundColor: {
         headerBg: "#111827",

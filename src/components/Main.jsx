@@ -5,6 +5,10 @@ import SubHeader from "./header/SubHeader";
 import LandingPage from "./LandingPage";
 import Marque from "./Marque";
 import FeatureOne from "./features/FeatureOne";
+import SmaterFeature from "./features/SmaterFeature";
+import LoginBox from "./LoginBox";
+import CarousalComponent from "./CarousalComponent";
+import TrustUs from "./features/TrustUs";
 
 const Main = () => {
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -14,6 +18,10 @@ const Main = () => {
       <LandingPage />
       <Marque />
       <FeatureOne />
+      <SmaterFeature />
+      <LoginBox />
+      <CarousalComponent />
+      <TrustUs />
     </>
   );
 };

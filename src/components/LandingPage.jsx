@@ -5,7 +5,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const LandingPage = () => {
   return (
-    <section className="bg-themeColor">
+    <section className="bg-themeColor bg-glowBottom bg-center  ">
       <SubHeader />
       <div className="max-w-7xl w-full mx-auto xs:pt-32 xs:pb-16 min-md:pt-52 min-md:pb-32 flex flex-col items-center justify-center">
         <div className="min-md:mx-10 px-7 max-w-4xl ">

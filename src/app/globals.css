@@ -25,3 +25,39 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+.custom-arrow {
+  position: absolute;
+  bottom: -70px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.custom-next {
+  /* right: 25px;  */
+  margin-left: 50px;
+}
+
+.custom-prev {
+  margin-right: 80px}
+
+.custom-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly brighter on hover */
+}
+
+.custom-arrow span {
+  font-size: 24px;
+  line-height: 1;
+}
