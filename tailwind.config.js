@@ -45,8 +45,13 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        signUpGradient:
+        "signUp-Gradient":
           "linear-gradient(#0f172a,#0f172a) padding-box,conic-gradient(#94a3b8,#334155 25%,#334155 75%,#94a3b8 100%) border-box",
+        "marquee-gradient":
+          "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%)",
+        "text-gradient": "linear-gradient(to right, #a855f7, #e9d5ff)",
+        "text-gradient-2":
+          "linear-gradient(to right, rgb(194 148 237), rgb(226 232 240 / 0.6))",
       },
       colors: {
         textPrimary: "#ABB2BC",

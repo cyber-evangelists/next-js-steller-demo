@@ -4,6 +4,7 @@ import TopHeader from "./header/TopHeader";
 import SubHeader from "./header/SubHeader";
 import LandingPage from "./LandingPage";
 import Marque from "./Marque";
+import FeatureOne from "./features/FeatureOne";
 
 const Main = () => {
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -12,6 +13,7 @@ const Main = () => {
       {headerVisible ? <TopHeader setHeaderVisible={setHeaderVisible} /> : null}
       <LandingPage />
       <Marque />
+      <FeatureOne />
     </>
   );
 };

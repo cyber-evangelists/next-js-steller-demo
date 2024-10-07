@@ -36,7 +36,7 @@ const SubHeader = () => {
             <li className="text-secondry px-5 py-3 text-textPrimary cursor-pointer">
               Sign in
             </li>
-            <li className="flex items-center gap-2 px-2 min-lg:px-5 py-1 text-textPrimary bg-signUpGradient border cursor-pointer text-primary rounded-full">
+            <li className="flex items-center gap-2 px-2 min-lg:px-5 py-1 text-textPrimary bg-signUp-Gradient border cursor-pointer text-primary rounded-full">
               Sign up
               <span className="text-arrowColor">
                 {" "}
