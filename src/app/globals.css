@@ -61,3 +61,51 @@ body {
   font-size: 24px;
   line-height: 1;
 }
+
+
+.wave {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.2;
+  animation: rotate 10s infinite linear, pulse 2s infinite;
+}
+
+.wave.-one {
+  background: rgba(255, 255, 255, 0.4);
+  animation: rotate 10s infinite linear, pulse 2s infinite;
+}
+
+.wave.-two {
+  background: rgba(255, 255, 255, 0.3);
+  width: 350px;
+  height: 350px;
+  animation: rotate 15s infinite linear reverse, pulse 2s infinite;
+}
+
+.wave.-three {
+  background: rgba(255, 255, 255, 0.2);
+  width: 400px;
+  height: 400px;
+  animation: rotate 20s infinite linear, pulse 2s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

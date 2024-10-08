@@ -1,8 +1,11 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import loginImg from "@/public/assets/loginBox.png";
+import CustomCursor from "./CustomCursor";
 
 const LoginBox = () => {
+  const [mouseEnter, setMouseEnter] = useState(false);
   return (
     <section className=" bg-themeColor ">
       <div className="max-w-7xl w-full mx-auto min-md:pt-32 pt-16 ">
@@ -24,7 +27,12 @@ const LoginBox = () => {
         <div className=" relative  ">
           {/* image container */}
           <div className="max-w-3xl mx-auto ">
-            <div className="xs:mx-4 min-md:mx-6 border border-bordorColor rounded-3xl relative overflow-hidden">
+            <div
+              className="xs:mx-4 min-md:mx-6 border border-bordorColor rounded-3xl relative overflow-hidden"
+              onMouseEnter={() => setMouseEnter(true)}
+              onMouseLeave={() => setMouseEnter(false)}
+            >
+              {mouseEnter ? <CustomCursor /> : null}
               <Image
                 src={loginImg}
                 width={768}
@@ -35,7 +43,7 @@ const LoginBox = () => {
             <div className="absolute xs:bottom-0 min-md:bottom-28 left-1/2 transform -translate-x-1/2 bg-loginBoxColor blur-3xl w-2/5 h-20 z-0"></div>
           </div>
         </div>
-        <hr className="border border-bordorColor mt-12 min-md:mt-20" />
+        <hr className=" xs:mx-4 min-md:mx-6 border border-bordorColor mt-12 min-md:mt-20" />
       </div>
     </section>
   );
