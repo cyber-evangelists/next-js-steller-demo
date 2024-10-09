@@ -34,14 +34,14 @@ body {
   right: 15px;
   cursor: pointer;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+  /* background-color: rgba(255, 255, 255, 0.1); Transparent background */
   border-radius: 50%;
   width: 60px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(99, 96, 96);
   font-size: 20px;
 }
 
@@ -54,7 +54,8 @@ body {
   margin-right: 80px}
 
 .custom-arrow:hover {
-  background-color: rgba(255, 255, 255, 0.3); /* Slightly brighter on hover */
+  /* background-color: rgba(255, 255, 255, 0.3); Slightly brighter on hover */
+  color: #7F00FF;
 }
 
 .custom-arrow span {
