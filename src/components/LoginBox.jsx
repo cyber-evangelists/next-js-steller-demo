@@ -13,7 +13,7 @@ const LoginBox = () => {
           {/* Background container with blur effect */}
           <div className="absolute inset-0 bg-loginBox bg-center bg-no-repeat blur-2xl z-0"></div>
 
-          <div className="pb-12 min-md:pb-20 max-w-3xl mx-auto flex flex-col items-center relative xs:mx-4 ">
+          <div className="pb-12 min-md:pb-20 max-w-3xl mx-auto flex flex-col items-center relative xs:mx-4 lg:px-6">
             <h2 className="text-textPrimary pb-4 min-md:text-[44px] font-bold">
               More than a login box
             </h2>

@@ -21,9 +21,9 @@ const CustomCursor = () => {
       className="absolute rounded-full blur-3xl z-10"
       style={{
         left: cursorPosition.x - 50,
-        top: cursorPosition.y - 50,
-        width: "200px",
-        height: "200px",
+        top: cursorPosition.y - 100,
+        width: "500px",
+        height: "500px",
         backgroundColor: "rgba(191, 90, 242, 0.5)",
       }}
       animate={{

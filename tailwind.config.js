@@ -81,6 +81,8 @@ module.exports = {
         bordorColor: "#363E48",
         loginBoxColor: "#A855F7",
         featureBg: "#A855F7",
+        tableBg: "#33415533",
+        tableBorder: "#1E293B",
       },
       backgroundColor: {
         headerBg: "#111827",

@@ -12,6 +12,7 @@ import TrustUs from "./features/TrustUs";
 import Footer from "./Footer";
 import BusinessComp from "./BusinessComp";
 import TestimonialsSlider from "./TestimonialsSlider";
+import Pricing from "./PricingPlans/Pricing";
 
 const Main = () => {
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -26,6 +27,7 @@ const Main = () => {
         <LoginBox />
         <CarousalComponent />
         <TrustUs />
+        <Pricing />
         <TestimonialsSlider />
         <BusinessComp />
         <Footer />
