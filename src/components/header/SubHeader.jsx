@@ -71,7 +71,7 @@ const SubHeader = () => {
         </div>
         {/* Mobile Dropdown Menu */}
         {!toggle ? (
-          <div className="min-sm:block bg-white w-full px-4 py-2 transition-all duration-300 ease-in-out">
+          <div className="min-sm:block bg-themeColor border border-bordorColor rounded-2xl mx-6  px-4  transition-all duration-300 ease-in-out">
             <ul className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <li key={link.url} className="text-textPrimary">

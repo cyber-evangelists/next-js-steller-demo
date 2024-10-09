@@ -1,12 +1,28 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import SubHeader from "./header/SubHeader";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { particlesConfig } from "@/particlesAnimations";
 
 const LandingPage = () => {
+  useEffect(() => {
+    // Dynamically load particles.js from the CDN
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js";
+    script.async = true;
+
+    script.onload = () => {
+      // Initialize particles after the script has been loaded
+      window.particlesJS("particles-js", particlesConfig);
+    };
+
+    document.body.appendChild(script);
+  }, []);
   return (
-    <section className="bg-themeColor bg-glowBottom bg-center  ">
+    <section className="bg-themeColor bg-glowBottom bg-center relative ">
       <SubHeader />
+      <div id="particles-js" className="absolute w-full h-full"></div>
       <div className="max-w-7xl w-full mx-auto xs:pt-32 xs:pb-16 min-md:pt-52 min-md:pb-32 flex flex-col items-center justify-center">
         <div className="min-md:mx-10 px-7 max-w-4xl ">
           <div className="flex justify-center mb-5">
