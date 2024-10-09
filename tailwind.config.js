@@ -58,6 +58,14 @@ module.exports = {
           "radial-gradient(circle, rgba(219,183,255,1) 50%, rgba(15,23,42,1) 100%)",
         "business-gradient":
           "radial-gradient(circle, rgba(192,132,252,1) 50%, rgba(15,23,42,1) 100%)",
+        "animation-gradient":
+          "repeating-linear-gradient(transparent,transparent 48px,#fff 48px,#fff 49px)",
+        "animation-gradient-2":
+          "repeating-linear-gradient(transparent,transparent 48px,#a855f7 48px,#a855f7 49px)",
+        "animation-gradient-3":
+          "repeating-linear-gradient(90deg,transparent,transparent 48px,#fff 48px,#fff 49px)",
+        "animation-gradient-4":
+          "repeating-linear-gradient(90deg,transparent,transparent 48px,#a855f7 48px,#a855f7 49px)",
         loginBox: "url(../public/assets/bg_img.png)",
         trustUs: "url(../public/assets/trustUs_img.png)",
         glowBottom: "url(../public/assets/glow-bottom.svg)",
@@ -85,9 +93,25 @@ module.exports = {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(-100%)" },
         },
+        pulseloop: {
+          "0%": {
+            opacity: "0",
+            transform: "scale(0.25) translateZ(0)",
+          },
+          "30%": {
+            opacity: "0.4",
+          },
+          "70%": {
+            opacity: "0",
+          },
+          "80%": {
+            transform: "scale(1) translateZ(0)",
+          },
+        },
       },
       animation: {
         marquee: "marquee 50s linear infinite",
+        pulseloop: "pulseloop 12000ms linear infinite",
       },
     },
   },

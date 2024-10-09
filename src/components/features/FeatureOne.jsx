@@ -68,19 +68,85 @@ const FeatureOne = () => {
           {/* image */}
 
           <div className="xs:hidden flex justify-center items-center min-md:w-3/6 ">
-            {/* <Image src={glow} width={400} height={400} className="blur" /> */}
-            <div className="relative bg-black rounded-xl">
-              <Image src={cross} width={23} height={25} className="m-6" />
+            <div className="py-24 relative">
+              <div className="flex justify-center items-center">
+                <div className="w-48 h-48 relative flex justify-center items-center">
+                  {/* halo effect */}
+                  <svg
+                    className="-translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4 inset-0 absolute pointer-events-none "
+                    width="400"
+                    height="400"
+                    viewBox="0 0 480 480"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs>
+                      <linearGradient
+                        id="pulse-a"
+                        x1="50%"
+                        x2="50%"
+                        y1="100%"
+                        y2="0%"
+                      >
+                        <stop offset="0%" stop-color="#A855F7"></stop>
+                        <stop offset="76.382%" stop-color="#FAF5FF"></stop>
+                        <stop offset="100%" stop-color="#6366F1"></stop>
+                      </linearGradient>
+                    </defs>
+                    <g fill-rule="evenodd">
+                      <path
+                        className="opacity-0  transform origin-center animate-pulseloop"
+                        fill="url(#pulse-a)"
+                        fill-rule="evenodd"
+                        d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
+                      ></path>
+                      <path
+                        className="cubym opacity-0 transform origin-center animate-pulseloop"
+                        fill="url(#pulse-a)"
+                        fill-rule="evenodd"
+                        d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
+                      ></path>
+                      <path
+                        className="chxkd opacity-0 transform origin-center animate-pulseloop"
+                        fill="url(#pulse-a)"
+                        fill-rule="evenodd"
+                        d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
+                      ></path>
+                    </g>
+                  </svg>
+
+                  {/* grid */}
+                  <div className="-translate-x-1/2 -translate-y-1/2 top-20 left-2/4 w-[300px] h-[300px] min-lg:w-[350px] min-lg:h-[350px] overflow-hidden  inset-0 absolute pointer-events-none transform rounded-full">
+                    <div className="h-[100%]  ">
+                      {/* Horizontal lines */}
+                      <div className="bg-animation-gradient blur-sm opacity-20 inset-0 absolute "></div>
+                      <div className="bg-animation-gradient-2 inset-0 absolute "></div>
+                      {/* Vertical lines */}
+                      <div className="bg-animation-gradient-3 blur-sm opacity-20 inset-0 absolute "></div>
+                      <div className="bg-animation-gradient-4 inset-0 absolute "></div>
+                    </div>
+                  </div>
+
+                  {/* icon */}
+                  <div className="relative bg-black rounded-xl">
+                    <Image src={cross} width={23} height={25} className="m-6" />
+                  </div>
+                </div>
+              </div>
             </div>
 
+            {/* <Image src={glow} width={400} height={400} className="blur" /> */}
+            {/* <div className="relative bg-black rounded-xl">
+              <Image src={cross} width={23} height={25} className="m-6" />
+            </div> */}
+
             {/* Waves container */}
-            <div className="absolute w-[300px] h-[300px]">
+            {/* <div className="absolute w-[300px] h-[300px]">
               <div className="wave-container absolute inset-0 ">
                 <div className="wave -one"></div>
                 <div className="wave -two"></div>
                 <div className="wave -three"></div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
