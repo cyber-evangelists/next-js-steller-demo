@@ -45,7 +45,7 @@ const TestimonialsSlider = () => {
         </h3>
         {/* Testimonial image */}
         <div className="relative h-32 overflow-hidden">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] max-w-full h-[400px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-themeColor/25 before:via-themeColor/5 before:via-25% before:to-themeColor/0 before:to-75% before:rounded-full before:border before:border-textPrimary before:-z-10 ">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] max-w-full h-[400px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-themeColor/25 before:via-themeColor/5 before:via-25% before:to-themeColor/0 before:to-75% before:rounded-full before:border before:border-gray-600 before:-z-10 ">
             <div className="h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_20%,theme(colors.white))]">
               {testimonials.map((testimonial, index) => (
                 <Transition

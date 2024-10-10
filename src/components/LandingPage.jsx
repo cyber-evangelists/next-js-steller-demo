@@ -26,7 +26,7 @@ const LandingPage = () => {
       <div className="max-w-7xl w-full mx-auto xs:pt-32 xs:pb-16 min-md:pt-52 min-md:pb-32 flex flex-col items-center justify-center">
         <div className="min-md:mx-10 px-7 max-w-4xl ">
           <div className="flex justify-center mb-5">
-            <span className="flex hover:cursor-pointer gap-2 border-x border-t xs:py-1 xs:px-2 rounded-full justify-center items-center min-lg::w-1/3 bg-[#633F99]  shadow-custom-all-sides">
+            <span className="flex hover:cursor-pointer gap-2 border-x border-t border-t-[#9157E7] xs:py-1 xs:px-2 min-sm:px-3 rounded-full justify-center items-center min-lg::w-1/3 bg-[#633F99]  shadow-custom-all-sides">
               <p className="text-textPrimary hover:text-white font-semibold">
                 API Studio is now in Beta
               </p>
