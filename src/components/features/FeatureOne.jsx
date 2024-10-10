@@ -115,7 +115,7 @@ const FeatureOne = () => {
                   </svg>
 
                   {/* grid */}
-                  <div className="-translate-x-1/2 -translate-y-1/2 top-20 left-2/4 w-[300px] h-[300px] min-lg:w-[350px] min-lg:h-[350px] overflow-hidden  inset-0 absolute pointer-events-none transform rounded-full">
+                  <div className="-translate-x-1/2 -translate-y-1/2 top-20 left-2/4 md:w-[300px] md:h-[300px] lg:w-[350px] lg:h-[350px] min-xl:w-[314px] min-xl:h-[314px] blur-sm  overflow-hidden  inset-0 absolute pointer-events-none transform rounded-full">
                     <div className="h-[100%]  ">
                       {/* Horizontal lines */}
                       <div className="bg-animation-gradient blur-sm opacity-20 inset-0 absolute "></div>
