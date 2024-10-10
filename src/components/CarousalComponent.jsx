@@ -78,7 +78,7 @@ const CarousalComponent = () => {
               {data.map((cardItem, index) => {
                 return (
                   <div key={index} className="min-w-[352px]   min-md:p-6 ">
-                    <div className="border border-bordorColor rounded-3xl px-5 py-4 xs:mx-3">
+                    <div className="border border-bordorColor rounded-3xl px-5 py-4 sm:mx-3">
                       <Image
                         src={cardItem.url}
                         className="mb-3"

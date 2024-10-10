@@ -21,7 +21,7 @@ const PricingTable = () => {
   };
 
   return (
-    <div className="relative xs:hidden">
+    <div className="relative md:hidden">
       <table className="table-auto w-full">
         <thead>
           <tr>

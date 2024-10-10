@@ -36,7 +36,7 @@ const TopHeader = ({ setHeaderVisible }) => {
           </div>
           <div className="flex items-center flex-1 justify-end">
             <div className="   text-sm mr-3 flex gap-3">
-              <div className="xs:hidden font-medium text-gray-50 border border-gray-600 rounded-lg py-1.5 px-3 cursor-pointer w-36   min-md:flex items-center justify-center">
+              <div className="sm:hidden font-medium text-gray-50 border border-gray-600 rounded-lg py-1.5 px-3 cursor-pointer w-36   min-md:flex items-center justify-center">
                 <Dropdown overlay={menuItems} trigger={["click"]}>
                   <a className="flex gap-14 items-center justify-center">
                     <span className="whitespace-nowrap overflow-hidden overflow-ellipsis w-[calc(100% - 22px)]">

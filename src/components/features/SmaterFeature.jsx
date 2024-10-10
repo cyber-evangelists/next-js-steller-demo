@@ -48,7 +48,7 @@ const SmaterFeature = () => {
           }}
         >
           {isActiveCursor == "box1" ? <CustomCursor /> : null}
-          <div className="flex flex-col min-md:flex-row justify-between items-center border xs:mx-4 min-md:mx-6 border-bordorColor rounded-3xl ">
+          <div className="flex flex-col min-md:flex-row justify-between items-center border sm:mx-4  min-sm:mx-6 border-bordorColor rounded-3xl ">
             <div className="p-6 min-md:p-8 min-md:max-w-md">
               <div className="mb-5 flex flex-col ">
                 <h3 className="font-bold text-textPrimary text-xl">
@@ -84,7 +84,7 @@ const SmaterFeature = () => {
           </div>
         </div>
         {/* 2 paraller boxes */}
-        <div className="flex flex-col min-md:flex-row gap-10 mt-8 xs:mx-4 mb-12 min-md:mx-6 min-md:mb-20">
+        <div className="flex flex-col min-md:flex-row gap-10 mt-8 sm:mx-4 mb-12 min-sm:mx-6 min-md:mb-20">
           {/* <div
             className="min-md:w-4/6 border border-bordorColor flex flex-col p-6 min-md:p-8 rounded-3xl overflow-hidden"
             onMouseEnter={() => {
@@ -135,7 +135,7 @@ const SmaterFeature = () => {
           <Infinite />
         </div>
 
-        <div className="grid grid-cols-1 min-md:grid-cols-3 xs:mx-4 min-md:mx-6 gap-8">
+        <div className="grid grid-cols-1 min-md:grid-cols-3 sm:mx-4 min-sm:mx-6 gap-8">
           <div className="flex flex-col ">
             <span className="flex items-center gap-6 mb-1">
               <FontAwesomeIcon

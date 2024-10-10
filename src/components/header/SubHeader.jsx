@@ -19,7 +19,7 @@ const SubHeader = () => {
           </div>
 
           {/* Normal Navbar for larger screens */}
-          <div className="xs:hidden ">
+          <div className=" sm:hidden">
             <ul className="flex flex-row gap-6 min-lg:gap-10">
               {navLinks.map((link) => (
                 <Link

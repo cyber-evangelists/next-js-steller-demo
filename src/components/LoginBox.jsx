@@ -28,7 +28,7 @@ const LoginBox = () => {
           {/* image container */}
           <div className="max-w-3xl mx-auto ">
             <div
-              className="xs:mx-4 min-md:mx-6 border border-bordorColor rounded-3xl relative overflow-hidden"
+              className="sm:mx-4 min-sm:mx-6 border border-bordorColor rounded-3xl relative overflow-hidden"
               onMouseEnter={() => setMouseEnter(true)}
               onMouseLeave={() => setMouseEnter(false)}
             >
