@@ -23,6 +23,7 @@ const SubHeader = () => {
             <ul className="flex flex-row gap-6 min-lg:gap-10">
               {navLinks.map((link) => (
                 <Link
+                  key={link.id}
                   href={link.url}
                   className="hover:cursor-pointer hover:font-bold text-textPrimary"
                 >

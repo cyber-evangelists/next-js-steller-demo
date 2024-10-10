@@ -87,28 +87,28 @@ const FeatureOne = () => {
                         y1="100%"
                         y2="0%"
                       >
-                        <stop offset="0%" stop-color="#A855F7"></stop>
-                        <stop offset="76.382%" stop-color="#FAF5FF"></stop>
-                        <stop offset="100%" stop-color="#6366F1"></stop>
+                        <stop offset="0%" stopColor="#A855F7"></stop>
+                        <stop offset="76.382%" stopColor="#FAF5FF"></stop>
+                        <stop offset="100%" stopColor="#6366F1"></stop>
                       </linearGradient>
                     </defs>
-                    <g fill-rule="evenodd">
+                    <g fillRule="evenodd">
                       <path
                         className="opacity-0  transform origin-center animate-pulseloop"
                         fill="url(#pulse-a)"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
                       ></path>
                       <path
                         className="cubym opacity-0 transform origin-center animate-pulseloop"
                         fill="url(#pulse-a)"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
                       ></path>
                       <path
                         className="chxkd opacity-0 transform origin-center animate-pulseloop"
                         fill="url(#pulse-a)"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z"
                       ></path>
                     </g>
